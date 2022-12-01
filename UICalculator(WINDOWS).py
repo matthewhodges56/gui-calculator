@@ -15,7 +15,7 @@ def insert(function, show):
     elif function == "delete":
         textbox.delete(textbox.index("end")-1)
     elif function == "equal":
-        print("stinky")
+        print("to-do")
     else:
         textbox.insert("end", show)
 
